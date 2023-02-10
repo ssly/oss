@@ -1,0 +1,21 @@
+{
+  "name": "oss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start",
+    "start:docker": "pm2 start --no-daemon",
+    "stop": "pm2 delete ecosystem.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@e.coding.net:overstar/me/oss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pm2": "^5.2.2"
+  }
+}
