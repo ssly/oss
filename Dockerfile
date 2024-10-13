@@ -1,8 +1,8 @@
-#FORM node:lts-alpine3.14
-FROM nas.lius.me:3002/node-base:1.0.0
+FROM node:18-alpine3.18
 
 # set env
 ENV ROOT_PATH=/usr/src/app
+ENV TZ=Asia/Shanghai
 
 # copy files
 ADD src $ROOT_PATH/src
